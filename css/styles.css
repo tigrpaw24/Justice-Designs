@@ -1,0 +1,155 @@
+.navbar {
+  height: 8px;
+  list-style-type: none;
+  /* display: inline; */
+  /* float: right; */
+}
+
+li {
+  float: right;
+  list-style-type: none;
+  padding: 20px;
+  margin-top: -40px;
+}
+
+a {
+  color: black;
+  text-shadow: 1px 1px rgb(192, 189, 189);
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-shadow: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* visited link */
+/* a:visited {
+  color: purple;
+} */
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+/* a:active {
+  color: blue;
+} */
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2014/04/02/10/17/courthouse-303370_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+    /* text-align: center; */
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  /*  fixed = parallax
+      scroll = normal*/
+    background-attachment: fixed;
+    padding-top: 500px;
+    /* margin-top: 280px; */
+  }
+
+.pimg1 {
+  background-image:url("https://cdn.pixabay.com/photo/2018/04/29/20/45/laptop-3361063_1280.jpg");
+    min-height: 100%;
+    margin-top: 395px;
+  }
+
+  .pimg2 {
+    background-image: url("https://cdn.pixabay.com/photo/2018/06/20/04/52/labor-3485805_1280.jpg");
+    min-height: 200px;
+  }
+
+  .pimg3 {
+    background-image: url("https://c.pxhere.com/images/a1/b6/9ff3e5c42d541ab205869d611729-1444653.jpg!d");
+    min-height: 200px;
+  }
+
+  .pimg4 {
+    background-image: url("https://assets.website-files.com/5c7fdbdd4e3feeee8dd96dd2/5c915b4753e34937c8401ec0_5b227a6bd898e25bcdce22f8_Screen%2520Shot%25202018-02-07%2520at%25204.54.10%2520PM.png");
+    min-height: 25px;
+    /* padding: -20px; */
+  }
+
+  .pimg5 {
+    background-image: url("https://miro.medium.com/max/840/1*_1y_fq5sMzgWtm0JUehBbw.png");
+    background-size: cover;
+    min-height: max-content;
+
+  }
+
+  .pimg6 {
+    background-image: url("https://c.pxhere.com/images/8a/36/ee6c3b1b81dfc62609b4f3d95ecb-1588175.jpg!d");
+    min-height: 200px;
+  }
+
+  .pimg7 {
+    background-image: url("https://c.pxhere.com/images/38/1a/ab8ff7f3e8ed600f6ddf6fed7690-1457525.jpg!d");
+    min-height: 200px;
+  }
+
+  .pimg8 {
+    background-image: url("https://c.pxhere.com/images/38/1a/ab8ff7f3e8ed600f6ddf6fed7690-1457525.jpg!d");
+    min-height: 200px;
+  }
+
+  .pimg9 {
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/02/10/17/courthouse-303370_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+  }
+
+  .section-dark {
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #282e34;
+    color: #ddd;
+  }
+
+  .ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgba(73, 66, 66, 0.979);
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+  }
+
+  .ptext1 {
+    margin-top: 100px;
+  }
+  
+  .ptext .border {
+    background-color: rgba(70, 62, 62, 0.883);
+    opacity: 0.90;
+    color: white;
+    text-shadow: 2px 3px black;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px;
+  }
+
+  @media(max-width: 568px) {
+    .pimg1, .pimg2, .pimg3 {
+      background-attachment: scroll;
+    }
+  }
+
+  /* .well {
+    background-color: black;
+  } */
